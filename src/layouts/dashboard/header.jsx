@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import PropTypes from 'prop-types';
 
 import Box from '@mui/material/Box';
@@ -16,8 +17,6 @@ import Iconify from 'src/components/iconify';
 import Searchbar from './common/searchbar';
 import { NAV, HEADER } from './config-layout';
 import AccountPopover from './common/account-popover';
-import LanguagePopover from './common/language-popover';
-import NotificationsPopover from './common/notifications-popover';
 
 // ----------------------------------------------------------------------
 
@@ -39,8 +38,6 @@ export default function Header({ onOpenNav }) {
       <Box sx={{ flexGrow: 1 }} />
 
       <Stack direction="row" alignItems="center" spacing={1}>
-        <LanguagePopover />
-        <NotificationsPopover />
         <AccountPopover />
       </Stack>
     </>

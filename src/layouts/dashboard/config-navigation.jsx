@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import SvgColor from 'src/components/svg-color';
 
 // ----------------------------------------------------------------------
@@ -11,21 +12,6 @@ const navConfig = [
     title: 'dashboard',
     path: '/',
     icon: icon('ic_analytics'),
-  },
-  {
-    title: 'user',
-    path: '/user',
-    icon: icon('ic_user'),
-  },
-  {
-    title: 'product',
-    path: '/products',
-    icon: icon('ic_cart'),
-  },
-  {
-    title: 'blog',
-    path: '/blog',
-    icon: icon('ic_blog'),
   },
   {
     title: 'login',
