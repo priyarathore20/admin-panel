@@ -25,7 +25,7 @@ const navConfig = [
   },
   {
     title: 'Listing Requests',
-    path: '/404',
+    path: '/listing-requests',
     icon: icon('ic_disabled'),
   },
 ];

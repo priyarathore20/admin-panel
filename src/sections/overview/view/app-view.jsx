@@ -18,13 +18,10 @@ export default function AppView() {
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
-         Welcome back 👋
+        Welcome back 👋
       </Typography>
 
       <Grid container spacing={3}>
-        
-
-
         <Grid xs={12} md={6} lg={8}>
           <AppNewsUpdate
             title="News Update"
