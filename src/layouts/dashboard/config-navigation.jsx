@@ -23,6 +23,11 @@ const navConfig = [
     path: '/404',
     icon: icon('ic_disabled'),
   },
+  {
+    title: 'Listing Requests',
+    path: '/404',
+    icon: icon('ic_disabled'),
+  },
 ];
 
 export default navConfig;

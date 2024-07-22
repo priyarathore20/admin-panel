@@ -23,12 +23,7 @@ export default function Router() {
           </Suspense>
         </DashboardLayout>
       ),
-      children: [
-        { element: <IndexPage />, index: true },
-        { path: 'user', element: <UserPage /> },
-        { path: 'products', element: <ProductsPage /> },
-        { path: 'blog', element: <BlogPage /> },
-      ],
+      children: [{ element: <IndexPage />, index: true }],
     },
     {
       path: 'login',

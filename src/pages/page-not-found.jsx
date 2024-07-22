@@ -1,18 +1,17 @@
-/* eslint-disable import/no-unresolved */
 import { Helmet } from 'react-helmet-async';
 
-import { LoginView } from 'src/sections/login';
+import { NotFoundView } from 'src/sections/error';
 
 // ----------------------------------------------------------------------
 
-export default function LoginPage() {
+export default function NotFoundPage() {
   return (
     <>
       <Helmet>
-        <title> Login </title>
+        <title> 404 Page Not Found </title>
       </Helmet>
 
-      <LoginView />
+      <NotFoundView />
     </>
   );
 }
